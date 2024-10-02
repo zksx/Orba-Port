@@ -26,7 +26,7 @@ function init(){
 	scene.add(light);
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	document.body.appendChild( renderer.domElement );
-	camera.position.z = 3;
+	camera.position.z = 3.5;
 
 	resizeRendererToDisplaySize(renderer)
 
